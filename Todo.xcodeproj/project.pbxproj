@@ -25,6 +25,7 @@
 		58EF19B016198A1000C89889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EF198516198A1000C89889 /* Foundation.framework */; };
 		58EF19B816198A1100C89889 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58EF19B616198A1100C89889 /* InfoPlist.strings */; };
 		58EF19BB16198A1100C89889 /* TodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF19BA16198A1100C89889 /* TodoTests.m */; };
+		58EF19C516198AD100C89889 /* todo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58EF19C416198AD100C89889 /* todo.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		58EF19B716198A1100C89889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58EF19B916198A1100C89889 /* TodoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTests.h; sourceTree = "<group>"; };
 		58EF19BA16198A1100C89889 /* TodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTests.m; sourceTree = "<group>"; };
+		58EF19C416198AD100C89889 /* todo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = todo.sqlite; path = ../../../../todo.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		58EF198A16198A1000C89889 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58EF19C416198AD100C89889 /* todo.sqlite */,
 				58EF198B16198A1000C89889 /* Todo-Info.plist */,
 				58EF198C16198A1000C89889 /* InfoPlist.strings */,
 				58EF198F16198A1000C89889 /* main.m */,
@@ -245,6 +248,7 @@
 				58EF199A16198A1000C89889 /* Default-568h@2x.png in Resources */,
 				58EF199D16198A1000C89889 /* MainStoryboard_iPhone.storyboard in Resources */,
 				58EF19A016198A1000C89889 /* MainStoryboard_iPad.storyboard in Resources */,
+				58EF19C516198AD100C89889 /* todo.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
